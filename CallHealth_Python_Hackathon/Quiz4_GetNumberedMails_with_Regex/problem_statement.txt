@@ -1,0 +1,15 @@
+We have a "database.csv" file.
+
+Task:
+
+Create 2 new columns in this database file, names should be "NumericFound", "numbers"
+
+Subtasks:
+
+1. If any digits (0 to 9) found in any email, extract that number and copy that into the "numbers" column else fill that row with NA
+2. If any digit found in any email id just label it as "1" else "0" in "NumericFound" column.
+
+Hint:
+Use regex and pandas.
+
+Check Example_Output.csv file for reference.

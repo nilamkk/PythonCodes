@@ -1,0 +1,16 @@
+
+We have a database called "student_scores.csv", in column "marks" you can see actual marks of the students, standardize the results as per the below guidelines. Standard tags should be filled in "tag" column (you need to create a new column named as "tag" in "student_scores.csv" file)
+
+1. If student marks are >85 , then tag that student as "merit"
+2. If student marks are >78 or <85, then tag that student as "passed"
+3. If student marks are <78 then tag that student as "failed"
+
+Example:
+
+In a row user x got 75 marks, in "tag" column of that row, mark that user as "failed".
+
+Hint:
+
+Use pandas with python to do this.
+
+Check Example_Output.csv file for reference.

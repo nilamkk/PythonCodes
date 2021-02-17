@@ -1,0 +1,16 @@
+We have a "database.csv" file, in "users10.txt" text file we have 10 usernames.
+
+Task:
+
+In "database.csv" you can see email address, for example kiran@gmail.com is a mail id in "database.csv", in "users10.txt" file you can see kiran, 
+you need to get value "kiran@gmail.com" for key "kiran".
+
+Result for username "kiran" should in this format -> {"kiran":"kiran@gmail.com"}
+
+Final output should be an array of dicts for each username(key), email_id pair.
+
+
+Hint:
+Use python strings operations.
+
+Check Example_Output.txt file for reference.

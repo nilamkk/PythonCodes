@@ -1,0 +1,10 @@
+
+Get emails from "database.csv" and fill the missing email values in email column of "missing_emails.csv" file.
+
+Example: In a row of "missing.csv" file you can see the id 110209, where email is empty for this id, but actual email mapped to same id is in "database.csv" file which is aanji009@yahoo.co.in.
+
+Output should be:
+All missing emails in "missing_emails.csv" should be filled, reference file "database.csv"
+
+Hints:
+Common key is "id" in both files.
